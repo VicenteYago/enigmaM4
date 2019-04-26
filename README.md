@@ -41,3 +41,18 @@ PLUGBOARD
 		  ['A', 'G', 'W', 'E', 'K', 'X', 'P', 'Ñ']
 		  ['K', 'X', 'P', 'Ñ', 'A', 'G', 'W', 'E']
 ```
+
+Se escribe el mensaje que quiere cifrar:
+
+```{bash}
+IN:  HOLAXESTOXESXUNAXPRUEBA
+OUT: NAGNMNGWEEXLXYUHOÑHUMZV
+```
+
+
+Y se comprueba que si se introduce la salida se obtiene la entrada original, la simetría surge efecto.
+```{bash}
+IN:  NAGNMNGWEEXLXYUHOÑHUMZV
+OUT: HOLAXESTOXESXUNAXPRUEBA
+```
+
