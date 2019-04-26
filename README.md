@@ -65,7 +65,48 @@ Y la símetria vuelve a hacer efecto para descifrar el mensaje:
 ```{r}
 IN:  OOWNSOTNRDIÑBVQHUUOLDSVMPVZSLAHNZZSMZYUZSWÑMYZGÑIDFZHNTDVL
 OUT: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+```
 
+
+
+También esta disponible una versión modificada, con un alfabeto extendido: `enigma_mod.py`
+
+```{r}
+ROTOR_I
+	Giro: E
+	Posicion:   l-13
+	Alfabeto:   lmnñopqrstuvwxyz0123456789_@#&%¿?!¡.,:;<>[]+*=-ºªABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijk
+	Anillo:     :;<>[]+*=-ºªABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz0123456789_@#&%¿?!¡.,
+	Conexiones: rºVI8ªd5tO¿6>sy<J2C!Yiz-,Ñ1.?¡mTKfñvQF%:R]+qXkPucSh_e[BZD3=a*nwbH0l@4&A7UxG9Lj;pEN#MWog
+	            O!TYgWñr+PÑfG&2K]u[n5LBq¡<Jm?sEM*;ohyzZ=_3XIV,p8.elºb1%-#aid:wt¿F@U9RHC>Ncx0kªAv674SQDj
+
+
+ROTOR_II
+	Giro: M
+	Posicion:   .-85
+	Alfabeto:   .,:;<>[]+*=-ºªABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz0123456789_@#&%¿?!¡
+	Anillo:     DEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz0123456789_@#&%¿?!¡.,:;<>[]+*=-ºªABC
+	Conexiones: %*G¿.xñBAwN¡@hPne,a0uYo2º6FZ<:7jgLHEv4T]8y=>XSr!KVR5-3#MbÑOJmlc[9t;ª&kpqDzIsiUdW_1+fQC?
+	            Dp7A@j*ª<Ni5_Yat¡CV8G;kWBlnM6dEZ¿>e,O]FSu4Ihz.ow+-T%gºHñc&s=1Uvr#R[q?JÑQLXbxPfm:0K32!9y
+
+
+ROTOR_III
+	Giro: T
+	Posicion:   @-36
+	Alfabeto:   @#&%¿?!¡.,:;<>[]+*=-ºªABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz0123456789_
+	Anillo:     yz0123456789_@#&%¿?!¡.,:;<>[]+*=-ºªABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwx
+	Conexiones: wl9Tzm<5E]ÑFdOu4Xp*Y_P7yJx-GqBrtD1CkºñHShv0?>¡;%o&L[QIU#enaf6sVRA.2iWKbgMªj¿@!8Z,N3=:+c
+	            FRVy,n>ªQ+pMP*J<[;O¿?d5kW-hX6!¡Se=_0]ZjlY:At7cmD9Tuiovqf#%UsH.ñGC42Eºax&LBwIbÑz8N@gK31r
+
+
+REFLECTOR
+	            ABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz0123456789_@#&%¿?!¡.,:;<>[]+*=-ºª
+	            ªº-=*+][><;:,.¡!?¿%&#@_9876543210zyxwvutsrqpoñnmlkjihgfedcbaZYXWVUTSRQPOÑNMLKJIHGFEDCBA
+
+PLUGBOARD
+	            &hª%_ta7:=Hm2>L6ñAr8*39,TZW!U¿yOpYK;zMJci1S<º5uCsXdD.bn0E?lvB4¡ÑGgqFoINje@k[-RfwQP#xV+
+	            <º5uCsXdD.bn0E?lvB4¡ÑGgqFoINje@k[-RfwQP#xV+&hª%_ta7:=Hm2>L6ñAr8*39,TZW!U¿yOpYK;zMJci1S
+```
 
 
 
