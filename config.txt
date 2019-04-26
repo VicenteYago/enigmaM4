@@ -1,0 +1,49 @@
+CONFIGURACION_ENIGMA=PRUEBA_88
+
+ALFABETO=ABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz0123456789_@#&%¿?!¡.,:;<>[]+*=-ºª
+
+ROTOR_<i>
+	NOMBRE=ROTOR_I
+	GIRO=E
+	ALFABETO=ABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz0123456789_@#&%¿?!¡.,:;<>[]+*=-ºª
+	CONEXIONES:
+			IN=ABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz0123456789_@#&%¿?!¡.,:;<>[]+*=-ºª
+			OUT=ABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz0123456789_@#&%¿?!¡.,:;<>[]+*=-ºª
+	ANILLO=ABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz0123456789_@#&%¿?!¡.,:;<>[]+*=-ºª
+
+ROTOR_<i>
+	NOMBRE=<nombre_rotor>
+	GIRO=<letra_giro>
+	ALFABETO=<alfabeto_rotor>
+	CONEXIONES:
+			IN=<conexiones_in>
+			OUT=<conexiones_out>
+	ANILLO=<anillo_rotor>
+
+ROTOR_<i>
+	NOMBRE=<nombre_rotor>
+	GIRO=<letra_giro>
+	ALFABETO=<alfabeto_rotor>
+	CONEXIONES:
+			IN=<conexiones_in>
+			OUT=<conexiones_out>
+	ANILLO=<anillo_rotor>
+
+ROTOR_<i>
+	NOMBRE=<nombre_rotor>
+	GIRO=<letra_giro>
+	ALFABETO=<alfabeto_rotor>
+	CONEXIONES:
+			IN=<conexiones_in>
+			OUT=<conexiones_out>
+	ANILLO=<anillo_rotor>
+
+REFLECTOR:
+			IN=<reflector_in>
+			OUT=<reflector_out>
+
+PLUGBOARD:
+			IN=<plugboard_in>
+			OUT=<plugboar_out>
+
+ORDEN=<orden_rotores>
