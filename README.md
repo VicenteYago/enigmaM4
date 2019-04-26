@@ -42,7 +42,7 @@ PLUGBOARD
 		  ['K', 'X', 'P', 'Ñ', 'A', 'G', 'W', 'E']
 ```
 
-Se escribe el mensaje que quiere cifrar:
+Se escribe el mensaje que se quiere cifrar:
 
 ```{bash}
 IN:  HOLAXESTOXESXUNAXPRUEBA
@@ -55,4 +55,18 @@ Y se comprueba que si se introduce la salida se obtiene la entrada original, la 
 IN:  NAGNMNGWEEXLXYUHOÑHUMZV
 OUT: HOLAXESTOXESXUNAXPRUEBA
 ```
+
+Se puede ver que los rotores cumplen la función de enmascarar los simbolos:
+```{r}
+IN:  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa
+OUT: OOWNSOTNRDIÑBVQHUUOLDSVMPVZSLAHNZZSMZYUZSWÑMYZGÑIDFZHNTDVL
+
+Y la símetria vuelve a hacer efecto para descifrar el mensaje:
+```{r}
+IN:  OOWNSOTNRDIÑBVQHUUOLDSVMPVZSLAHNZZSMZYUZSWÑMYZGÑIDFZHNTDVL
+OUT: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+
 
