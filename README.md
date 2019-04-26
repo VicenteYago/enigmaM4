@@ -57,12 +57,12 @@ OUT: HOLAXESTOXESXUNAXPRUEBA
 ```
 
 Se puede ver que los rotores cumplen la función de enmascarar los simbolos:
-```{r}
+```{bash}
 IN:  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa
 OUT: OOWNSOTNRDIÑBVQHUUOLDSVMPVZSLAHNZZSMZYUZSWÑMYZGÑIDFZHNTDVL
 
 Y la símetria vuelve a hacer efecto para descifrar el mensaje:
-```{r}
+```{bash}
 IN:  OOWNSOTNRDIÑBVQHUUOLDSVMPVZSLAHNZZSMZYUZSWÑMYZGÑIDFZHNTDVL
 OUT: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 ```
@@ -71,7 +71,7 @@ OUT: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 
 También esta disponible una versión modificada, con un alfabeto extendido: `enigma_mod.py`
 
-```{r}
+```{bash}
 ROTOR_I
 	Giro: E
 	Posicion:   l-13
@@ -109,5 +109,13 @@ PLUGBOARD
 ```
 
 
+Algunos ejemplos de su funcionamiento: 
 
+```{bash}
+IN:  HOLAXESTOXESXUNAXPRUEBA       
+OUT: >pªx2,[¿b>nhI:ªw1v;seBO
+
+IN:  >pªx2,[¿b>nhI:ªw1v;seBO
+OUT: HOLAXESTOXESXUNAXPRUEBA
+```
 
