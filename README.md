@@ -50,7 +50,7 @@ OUT: NAGNMNGWEEXLXYUHOÑHUMZV
 ```
 
 
-Y se comprueba que si se introduce la salida se obtiene la entrada original, la simetría surge efecto.
+Y se comprueba que si se introduce la salida se obtiene la entrada original, la simetría surge efecto y el mensaje se ha descrifado.
 ```{bash}
 IN:  NAGNMNGWEEXLXYUHOÑHUMZV
 OUT: HOLAXESTOXESXUNAXPRUEBA
